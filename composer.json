@@ -1,4 +1,6 @@
 {
     "name": "glpi-project/lessons",
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "^10.4"
+    }
 }

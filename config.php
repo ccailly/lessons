@@ -117,6 +117,7 @@ $discoverConfig = [
             "description" => __("Create our first ticket"),
             "points" => 10,
             "navigateTo" => "front/ticket.php",
+            "canView" => [Ticket::canView(), Ticket::canCreate()],
             "steps" => [
                 [
                     "title" => __("Empty ticket page"),

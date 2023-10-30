@@ -1,2 +1,4 @@
 /vendor/
 /translated/
+.phpunit.result.cache
+tests/files
